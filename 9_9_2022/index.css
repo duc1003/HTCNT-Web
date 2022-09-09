@@ -1,0 +1,106 @@
+ *
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+ }
+
+ #page
+ {
+    width: 1089px;
+    height: 800px;
+    background-color: rgb(4, 35, 81);
+    margin: auto;
+ }
+
+ .header
+ {
+    height: 200px;
+    background-color: aqua;
+ }
+
+ .header h1
+ {
+    color: violet;
+ }
+
+
+ .nav
+ {
+    background-color: rgb(167, 100, 12);
+    height: 50px;
+ }
+
+ .nav ul 
+ {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    
+
+ }
+
+ .nav ul li:hover >a
+ {
+    color: purple;
+    background-color: aliceblue;
+ }
+
+ .nav ul li a
+ {
+    color: pink;
+    font-style: italic;
+    padding: 15px 39px;
+ }
+ 
+ .nav ul .sub-nav .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 262%;
+    left: 0;
+    display: none;
+ }
+ 
+ .nav ul li:hover .sub-menu 
+ {
+    display: block;
+ }
+
+ .nav ul .sub-nav .sub-menu li
+ {
+    margin-bottom: 21px;
+ }
+
+ .content
+ {
+    height: 500px;
+    background-color: cornflowerblue;
+    display: flex;
+ }
+
+ .aside 
+ {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(3, 110, 60);
+ }
+
+ .describe 
+ {
+    width: 75%;
+    height: 100%;
+    background-color: rgb(40, 237, 10);
+ }
+
+ .footer
+ {
+    height: 100px;
+    background-color: brown;
+ }
